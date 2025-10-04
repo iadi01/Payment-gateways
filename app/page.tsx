@@ -55,7 +55,7 @@ const PaymentPage = () => {
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
       <Script src="https://checkout.razorpay.com/v1/checkout.js" />
       <div className="p-6 bg-white rounded-lg shadow-md">
-        <h1 className="text-2xl font-bold mb-4">Joining Fee</h1>
+        <h1 className="text-2xl font-bold mb-4">The Maqsad institute Joining Fee</h1>
         <p className="mb-4">Amount to pay {AMOUNT}₹</p>
         <button
           onClick={handlePayment}
